@@ -6,7 +6,7 @@ let target, labelNbBoids, labelNbSharks; // Ajout de labelNbSharks
 let alignSlider, cohesionSlider, separationSlider, boundariesSlider, perceptionSlider, sizeSlider;
 
 function preload() {
-  fishImage = loadImage('./assets/niceFishtransparent.png'); // Poisson
+  fishImage = loadImage('./assets/niceFishTransparent.png'); // Poisson
   sharkImage = loadImage('./assets/requin.png'); // Requin mâle
   sharkFemaleImage = loadImage('./assets/requinFemelle.jpg'); // Requin femelle
   bgImage = loadImage('./assets/background.jpg'); // Image d'arrière-plan
